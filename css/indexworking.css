@@ -1,0 +1,57 @@
+.container
+{
+    display: flex;
+    justify-content: left;
+}
+
+.body
+{
+    background-color:black;
+}
+
+.link
+{
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
+}
+
+.link2
+{
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.link3
+{
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.main-text
+{
+    color: white;
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 28px;
+}
+
+.second-text
+{
+    color: white;
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.video
+{
+    width: 400px;
+    height: 400px;
+}
