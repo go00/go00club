@@ -3,6 +3,15 @@
     background-color:black;
 }
 
+.main-text
+{
+    color: white;
+    text-align: left;
+    align-content: left;
+    text-decoration: none;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
 .link
 {
     color: white;
