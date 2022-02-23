@@ -10,3 +10,10 @@
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 28px;
 }
+
+.video
+{
+    width: 400px;
+    height: 400px;
+    align-content: center;
+}
