@@ -3,14 +3,6 @@
     background-color:black;
 }
 
-.main-text
-{
-    color: white;
-    text-align: center;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 28px;
-}
-
 .video
 {
     width: 400px;
@@ -20,8 +12,26 @@
     text-align: center;
 }
 
+.video.video
+{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-text
+{
+    color: white;
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 28px;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
