@@ -20,12 +20,6 @@
     font-size: 28px;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .vpn-text
 {
     text-decoration: none;
@@ -34,6 +28,24 @@
     flex-wrap: nowrap;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 20px;
+}
+
+.bottom-text
+{
+    color: white;
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 375px) {
