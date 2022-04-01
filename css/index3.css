@@ -1,0 +1,53 @@
+.body
+{
+    background-color:black;
+}
+
+.video
+{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-text
+{
+    color: white;
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 28px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vpn-text
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    flex-wrap: nowrap;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 375px) {
+    .video
+    {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video
+    {
+        width: 300px;
+        height: 300px;
+    }
+}
