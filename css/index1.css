@@ -15,10 +15,13 @@
 {
     width: 400px;
     height: 400px;
-    align-content: center;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.disclaimer
-{
-    display: none;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
