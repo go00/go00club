@@ -1,40 +1,37 @@
-.body
+body
 {
     background-color:black;
 }
 
-.main-text
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.back-to-main
 {
     color: white;
-    text-align: left;
-    align-content: left;
-    text-decoration: none;
+    text-align: center;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 28px;
 }
 
 .link
 {
     color: white;
-    text-align: left;
-    align-content: left;
-    text-decoration: none;
+    text-align: center;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 20px;
 }
 
-.link2
+.bottom-text
 {
     color: white;
-    text-align: left;
-    align-content: left;
-    text-decoration: none;
+    text-align: center;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-}
-
-.link3
-{
-    color: white;
-    text-align: left;
-    align-content: left;
-    text-decoration: none;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
 }
