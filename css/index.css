@@ -3,6 +3,16 @@ body
     background-color:black;
 }
 
+a
+{
+    color: #cecece;
+}
+
+a:visited
+{
+    color: #cecece;
+}
+
 .video
 {
     width: 400px;
@@ -44,7 +54,8 @@ body
     justify-content: center;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) 
+{
     .video
     {
         width: 300px;
@@ -52,10 +63,19 @@ body
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px)
+{
     .video
     {
         width: 300px;
         height: 300px;
+    }
+}
+
+@media screen and (max-height: 560px)
+{
+    .bottom-text
+    {
+        display: none;
     }
 }
