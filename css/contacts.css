@@ -35,3 +35,11 @@ body
     bottom: 10px;
     width: 100%;
 }
+
+@media screen and (max-height: 560px)
+{
+    .bottom-text
+    {
+        display: none;
+    }
+}
